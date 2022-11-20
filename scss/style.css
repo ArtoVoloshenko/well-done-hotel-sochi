@@ -1,4 +1,7 @@
 body {
+  @media only screen and (max-device-width: 1366px) {
+    background-attachment: scroll;
+  }
   background: #fff;
   font-family: "Roboto", arial, sans-serif;
   font-weight: 200;
@@ -233,6 +236,9 @@ textarea.form-control {
   min-height: 700px;
   width: 100%;
   position: relative;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .site-hero .heading {
   font-family: "Playfair Display", times, serif;
