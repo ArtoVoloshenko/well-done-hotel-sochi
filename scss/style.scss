@@ -1437,14 +1437,7 @@ select {
 .letter-spacing-2 {
 	letter-spacing: .2em;
 }
-.bg-image {
-	background-size: cover;
-	background-attachment: fixed;
-}
-.bg-image-2 {
-	background-size: cover;
-	background-position: center center;
-}
+
 .food-menu-tabs {
 	text-align: center;
 	.nav-tabs {
@@ -1495,6 +1488,10 @@ select {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	@media only screen and (max-device-width: 1366px)  {
+		background-attachment: scroll;
+		
+	}
 	position: relative;
 	z-index: 1;
 	&.overlay {

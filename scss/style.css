@@ -1483,16 +1483,6 @@ textarea.form-control {
   letter-spacing: .2em;
 }
 
-.bg-image {
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-.bg-image-2 {
-  background-size: cover;
-  background-position: center center;
-}
-
 .food-menu-tabs {
   text-align: center;
 }
@@ -1550,6 +1540,12 @@ textarea.form-control {
   background-position: center center;
   position: relative;
   z-index: 1;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
 }
 
 .bg-image.overlay {
