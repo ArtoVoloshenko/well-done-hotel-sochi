@@ -8,6 +8,14 @@ body {
   position: relative;
 }
 
+.bg_paralax {
+  background-position: center;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .img__logo {
   height: 10vh;
   width: 10vh;
