@@ -1,7 +1,4 @@
 body {
-  @media only screen and (max-device-width: 1366px) {
-    background-attachment: scroll;
-  }
   background: #fff;
   font-family: "Roboto", arial, sans-serif;
   font-weight: 200;
@@ -42,7 +39,11 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: #000;
   font-family: "Playfair Display", times, serif;
 }
@@ -91,11 +92,14 @@ h1, h2, h3, h4, h5 {
   font-size: 14px;
   letter-spacing: 0.2em;
 }
-.btn, .form-control {
+.btn,
+.form-control {
   outline: none;
   box-shadow: none !important;
 }
-.btn:focus, .btn:active, .form-control:focus, .form-control:active {
+.btn:focus, .btn:active,
+.form-control:focus,
+.form-control:active {
   outline: none;
 }
 
@@ -237,7 +241,6 @@ textarea.form-control {
   width: 100%;
   position: relative;
   background-position: center;
-  background-attachment: scroll;
   background-size: cover;
 }
 .site-hero .heading {
@@ -431,11 +434,13 @@ textarea.form-control {
 .blog-post-entry {
   position: relative;
 }
-.half .image, .half .text {
+.half .image,
+.half .text {
   width: 50%;
 }
 @media (max-width: 991.98px) {
-  .half .image, .half .text {
+  .half .image,
+.half .text {
     width: 100%;
   }
 }
@@ -639,15 +644,19 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
-.owl-carousel.major-caousel .owl-nav .owl-prev, .owl-carousel.major-caousel .owl-nav .owl-next {
+.owl-carousel.major-caousel .owl-nav .owl-prev,
+.owl-carousel.major-caousel .owl-nav .owl-next {
   transition: 0.3s all ease;
   color: #495057;
 }
-.owl-carousel.major-caousel .owl-nav .owl-prev:hover, .owl-carousel.major-caousel .owl-nav .owl-prev:focus, .owl-carousel.major-caousel .owl-nav .owl-next:hover, .owl-carousel.major-caousel .owl-nav .owl-next:focus {
+.owl-carousel.major-caousel .owl-nav .owl-prev:hover, .owl-carousel.major-caousel .owl-nav .owl-prev:focus,
+.owl-carousel.major-caousel .owl-nav .owl-next:hover,
+.owl-carousel.major-caousel .owl-nav .owl-next:focus {
   color: #6c757d;
   outline: none;
 }
-.owl-carousel.major-caousel .owl-nav .owl-prev.disabled, .owl-carousel.major-caousel .owl-nav .owl-next.disabled {
+.owl-carousel.major-caousel .owl-nav .owl-prev.disabled,
+.owl-carousel.major-caousel .owl-nav .owl-next.disabled {
   color: #dee2e6;
 }
 .owl-carousel.major-caousel .owl-nav .owl-prev {
@@ -769,19 +778,23 @@ textarea.form-control {
   border-radius: 0;
   color: #fff;
 }
-.footer-newsletter .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+.footer-newsletter .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: rgba(255, 255, 255, 0.2);
   font-style: italic;
 }
-.footer-newsletter .form-control::-moz-placeholder { /* Firefox 19+ */
+.footer-newsletter .form-control::-moz-placeholder {
+  /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.2);
   font-style: italic;
 }
-.footer-newsletter .form-control:-ms-input-placeholder { /* IE 10+ */
+.footer-newsletter .form-control:-ms-input-placeholder {
+  /* IE 10+ */
   color: rgba(255, 255, 255, 0.2);
   font-style: italic;
 }
-.footer-newsletter .form-control:-moz-placeholder { /* Firefox 18- */
+.footer-newsletter .form-control:-moz-placeholder {
+  /* Firefox 18- */
   color: rgba(255, 255, 255, 0.2);
   font-style: italic;
 }
@@ -956,11 +969,13 @@ textarea.form-control {
     opacity: 0;
   }
 }
-.site-block-half .image, .site-block-half .text {
+.site-block-half .image,
+.site-block-half .text {
   width: 100%;
 }
 @media (min-width: 992px) {
-  .site-block-half .image, .site-block-half .text {
+  .site-block-half .image,
+.site-block-half .text {
     width: 50%;
   }
 }
@@ -1084,7 +1099,9 @@ textarea.form-control {
 .block-2:hover .front, .block-2.hover .front {
   transform: rotateY(180deg);
 }
-.block-2, .block-2 .front, .block-2 .back {
+.block-2,
+.block-2 .front,
+.block-2 .back {
   width: 100%;
   height: 427px;
 }
@@ -1100,7 +1117,8 @@ textarea.form-control {
   transform-style: preserve-3d;
   position: relative;
 }
-.block-2 .front, .block-2 .back {
+.block-2 .front,
+.block-2 .back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 4px;
@@ -1149,7 +1167,8 @@ textarea.form-control {
   right: 20px;
   bottom: 20px;
 }
-.block-2 .front .box h2, .block-2 .front .box p {
+.block-2 .front .box h2,
+.block-2 .front .box p {
   color: #fff;
   margin: 0;
   padding: 0;
@@ -1421,7 +1440,8 @@ textarea.form-control {
   border: 1px solid #d9d9d9;
   box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.1);
 }
-.custom-pagination ul li a, .custom-pagination ul li span {
+.custom-pagination ul li a,
+.custom-pagination ul li span {
   display: inline-block;
   width: 47px;
   margin: 2px;
